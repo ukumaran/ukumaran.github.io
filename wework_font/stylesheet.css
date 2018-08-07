@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Apercu WeWork Mono';
+    src: url('ApercuWeWorkMono-Regular.woff2') format('woff2'),
+        url('ApercuWeWorkMono-Regular.woff') format('woff'),
+        url('ApercuWeWorkMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

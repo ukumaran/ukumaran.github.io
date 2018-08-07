@@ -1,0 +1,152 @@
+#popUpWindow{
+  //background: lightblue; 
+}
+
+@font-face {
+font-family: "ApercuWeWorkMono-Regular";
+src: url("wework_font/ApercuWeWorkMono-Regular.eot");
+src: 
+url("wework_font/ApercuWeWorkMono-Regular.otf") format("opentype"),
+url("wework_font/ApercuWeWorkMono-Regular.svg") format("svg"),
+url("wework_font/ApercuWeWorkMono-Regular.tff") format("tff");
+;
+}
+
+@font-face {
+font-family: "ApercuWeWork-Medium";
+src: url("wework_font/ApercuWeWorkMono-Regular.eot");
+src: 
+url("wework_font/ApercuWeWork-Medium.otf") format("opentype"),
+url("wework_font/ApercuWeWork-Medium.svg") format("svg"),
+url("wework_font/ApercuWeWork-Medium.tff") format("tff");
+;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+.body{
+	font-family: ApercuWeWorkMono-Regular;
+}
+.card{
+	border-color: gray;
+	border-width: 3px;
+	font-family: ApercuWeWork-Medium;
+
+}
+
+.card:hover{
+	border-color: rgb(255, 0, 57);
+	color: rgb(255, 0, 57);
+}
+
+
+
+.card-title{
+		font-family: ApercuWeWork-Medium;
+		font-size: 2.3em;
+		font-weight: 600;
+}
+
+.card-body{
+		font-family: ApercuWeWorkMono-Regular;
+
+}
+
+.card-subtitle{
+		font-family: ApercuWeWorkMono-Regular;
+
+}
+
+.gray{
+	color: gray;
+}
+
+.red:hover{
+	color: rgb(255, 0, 57);;
+}
+
+.red{
+	color: rgb(255, 0, 57)
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-top {
+  display: flex;
+  margin-bottom: 1.5em;
+  padding: 0 1.5em;
+  box-sizing: border-box;
+}
+
+.modal-title {
+  font-family: ApercuWeWorkMono-Regular;
+  font-size: 2.4em;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
+.modal-media {
+  width: 50%;
+}
+
+.modal-bottom {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.image {
+  width: 100%;
+}
+
+.egyptians {
+  display: flex;
+}
+
+a{
+  text-decoration:  none;
+}
+
+a:hover{
+  text-decoration:  none;
+}
+
+.gif {
+  height: 64px;
+  width: 64px;
+}
+
+.modal .modal-dialog {
+  width: 850px !important;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.btn-interest {
+  background-color: red;
+  color: white;
+  padding: 10px 40px;
+}
+
+.rounded{
+	border-radius:1.5rem!important
+}
+
+h6{
+	font-size: 1em;
+}
