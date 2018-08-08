@@ -1,0 +1,177 @@
+.section-header {
+    background-color: #7E5FE2;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    /*Full width section*/    
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+}
+
+
+
+
+@font-face {
+font-family: "ApercuWeWorkMono-Regular";
+src: url("wework_font/ApercuWeWorkMono-Regular.eot");
+src: 
+url("wework_font/ApercuWeWorkMono-Regular.otf") format("opentype"),
+url("wework_font/ApercuWeWorkMono-Regular.svg") format("svg"),
+url("wework_font/ApercuWeWorkMono-Regular.tff") format("tff");
+;
+}
+
+@font-face {
+font-family: "ApercuWeWork-Medium";
+src: url("wework_font/ApercuWeWorkMono-Medium.eot");
+src: 
+url("wework_font/ApercuWeWork-Medium.otf") format("opentype"),
+url("wework_font/ApercuWeWork-Medium.svg") format("svg"),
+url("wework_font/ApercuWeWork-Medium.tff") format("tff");
+;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+*{
+    font-family: 'Karla', sans-serif;
+
+}
+
+#meet-section{
+        font-family: 'ApercuWeWorkMono-Medium', sans-serif;
+
+}
+.content {
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section {
+    position: relative;
+}
+
+
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+
+    /*Full width section*/    
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+
+
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+
+    /*Full width section*/    
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+}
+
+.link-text {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+div.link-item {
+    background-color: black;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    display: inline-block;
+        border-radius: 10px;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+img {
+    height: 7%;
+    width: 7%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#wework-logo{
+    padding-bottom: 3px;
+}
+
+#looker-logo{
+
+}
+
+header img {
+    height: 4%;
+    width: 4%;
+}
+
+
+.headshots{
+    height: auto;
+    width: 35%;
+    border-radius: 20px;
+}
+
+#names{
+    padding-bottom: -26px;
+        font-family: 'Karla-Bold', sans-serif;
+        font-size: 20px;
+
+}
+
+#emails{
+    
+}
